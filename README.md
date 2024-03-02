@@ -112,31 +112,36 @@ hello world
 cat > newfile 
 Hello world
 hello world
- 
+
 grep Hello newfile 
 ## OUTPUT
+ ![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/5e656d53-72fe-474c-861b-012c233d536d)
+
 
 
 
 grep hello newfile 
 ## OUTPUT
-
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/15fc26b0-90b1-4a27-89c3-3b2a530b9d2b)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/e086fad4-f839-4ddb-ac2d-d1da48a0e840)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/d6f00ee0-149b-4f3a-b724-0e2bdbde947c)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/9610bf74-0423-461f-ada3-c530eaf61091)
 
 
 
@@ -148,6 +153,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/ae68ef07-333d-457c-bbbf-f20599ae965b)
 
 
 cat < newfile 
@@ -171,11 +177,13 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/695515f2-c4b0-4162-812e-3d0340766883)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/28827ea3-f1f1-48ff-b655-4562def24e9c)
 
 
 
