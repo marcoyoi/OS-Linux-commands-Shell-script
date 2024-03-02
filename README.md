@@ -42,23 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/fbe0bc98-6da8-4e23-866f-8d5c5f44b8e5)
 
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/8279c19c-a21b-404c-b0c3-0e7567363944)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/3071a2f9-ae05-413d-bd36-1fe91ac3f3ca)
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/a7942b0c-79a0-49b9-be76-d992c05d8269)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/2a8cee62-bada-42d3-88ba-f0dd00a76823)
 
 
 #Filters
@@ -82,17 +87,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/2431ad55-f118-4c69-8b6f-a2fbf1f3d752)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/3ba6a32b-bd56-4464-9a63-23f2358924ef)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/ce334c4c-b249-447e-8e46-f588e71e9b3e)
 
 
 cat < newfile 
