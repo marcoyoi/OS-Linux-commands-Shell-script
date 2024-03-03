@@ -344,8 +344,7 @@ seq 10 | sed '2,9c hello'
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-![305812369-18284ae2-1458-43d2-adf9-c938b0e768e3](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/db48847f-05bd-41d5-8fad-7513d4113ab3)
-
+![305812800-12731e6d-a860-400f-a9bb-2f5065523170](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/9da71deb-2602-4466-9ab2-a74604ade15f)
 
 
 
@@ -378,6 +377,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![305814410-c09905f2-fb18-476a-96fc-e262f634d64e](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/d4dc3d4a-8a66-47e4-8bd4-dac17a844178)
 
 
 
@@ -385,6 +385,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![305816229-5f25712f-0ef9-4879-9d54-e78ff0d86f5e](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/e1ddf951-6edd-4a92-9c94-85a7c2161de8)
 
 cat < urllist.txt
 ```
@@ -401,6 +402,7 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![306538777-aef9e430-000a-4eca-a90b-5c110a4f8b44](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/3141d3d6-4c32-4fd7-958a-4a1eeef4f473)
 
 
  
@@ -412,6 +414,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![306538908-c3162aaa-49f9-4871-975f-c899bad6ddad](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/42013c1f-7c15-48d8-b811-35a6cdfd4b53)
 
 
 mkdir backupdir
@@ -420,10 +423,12 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![306539900-259a58b1-5889-4760-8ec0-f67ea57c7483](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/81c2a979-8ae8-478a-a609-0fb196adf13f)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![306540140-27f00a78-61df-4953-b159-2234ef1e8472](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/6cc3ed69-0e28-407b-9e37-3c24f7807626)
 
 gzip backup.tar
 
@@ -443,7 +448,7 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
- 
+
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -454,6 +459,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+ ![306552604-0873e9e1-fc55-454b-9b95-af81ffff5b78](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/b1f018ae-78f0-4214-b83e-6e51d8089d73)
 
 
 cat < scriptest.sh 
@@ -504,11 +510,13 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![306541738-5afd01d6-bc49-420d-9376-f1d88e9b0178](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/b88a70e3-86d7-4432-9f81-53e661375a7b)
+
 abcd
  
 echo $?
  ## OUTPUT
+![306542087-e7518e15-b5da-412c-a1ed-a9f6bc85220d](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/9784998f-827d-445d-a1b3-e73823a28193)
 
 
  
@@ -541,6 +549,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+![306557718-2266709f-d5df-4e6e-8825-f7a4e29cf7d0](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/6caa5124-beb7-49d2-81de-b4b3032934e6)
 
 
 
@@ -548,6 +557,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![306566416-0f088335-0b68-436e-b56e-a413b3316a37](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/528b3a80-a3ef-4a18-89a9-ca9bf807f0d9)
 
 
 # check file ownership
@@ -575,6 +585,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![307673145-3194dc09-c476-4167-a39e-779103ef8029](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/434dfefb-4912-4cb9-a52c-878fc88430df)
 
 # check if with file location
 cat>ifnested.sh 
@@ -621,6 +632,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![307673777-cfa8b86b-0e65-478d-aeaa-5a507d5bedc9](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/1dc07a2e-bdc2-463a-a027-3bef37fa75ce)
 
 
 
@@ -660,11 +672,13 @@ else
 echo “The values are different”
 fi
 ```
+![306545355-49a3408b-2e23-4f73-9cf2-407575a726c6](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/2dd0643b-0a15-43bc-9a01-a6425c7e4b15)
 
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+![307674113-fe1af2ba-772b-44ba-938f-01691ae96134](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/d67460cc-9343-4f73-8262-6cb9224295dc)
 
 # check if a file
 cat > ifnested.sh 
@@ -713,7 +727,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+![307674426-969d3670-be61-4d5b-81d2-d53103223e8d](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/a998b22e-cf27-499b-aae7-b74814b365de)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -742,6 +757,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![307674756-4f69c2a2-0a5d-47db-af34-ce60e46db3b5](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/22caa0d2-a17e-4bfa-8058-3ff59ee2f43d)
 
 
 # testing compound comparisons
@@ -758,6 +774,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![307675139-3ba0b9af-a6b9-433f-8acf-dd42ecf4932d](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/ba822c9e-a4cf-44c2-b71d-dbbc05912aa9)
 
 # using the case command
 cat >casecheck.sh 
@@ -777,7 +794,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ![307675139-3ba0b9af-a6b9-433f-8acf-dd42ecf4932d](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/83efe235-68fc-49f6-b86b-8d2109789b03)
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -805,7 +822,8 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+ ![307675139-3ba0b9af-a6b9-433f-8acf-dd42ecf4932d](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/83efe235-68fc-49f6-b86b-8d2109789b03)
+
  
  
 cat forin1.sh 
@@ -819,7 +837,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ ![307676514-f7fe8180-dde0-4567-b576-c29d30b63b55](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/5c28cecf-b2fc-4482-b722-25f60a00c6fd)
+
  
 cat forin2.sh 
 ```bash
@@ -832,7 +851,8 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+ ![307676785-169b4ed1-16f1-4f17-b7cc-e3cd3d5ab22a](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/48cb47b5-a095-430e-bac8-7ebbc69039d6)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -866,6 +886,8 @@ do
 echo The next state is $test
 done
 ```
+![307677131-885626ba-ec97-4b35-8972-68e3f4d814ab](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/dc2d7467-b775-43e9-a3dd-30f03f3c58f3)
+
 $ chmod 755 forin1.sh
 
 ## OUTPUT
