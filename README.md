@@ -190,48 +190,58 @@ egrep -w '(H|h)ello' newfile
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/6ecfce4e-8c4a-432b-91cc-aa15de74eab8)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/0cad1aff-9aba-4e6b-b24f-8a615d487914)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/4f280a81-6ba4-4286-96fb-1ead60d7c039)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/b703763c-5cce-4ea2-b61e-9229ec3c65e7)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![304756993-8407e750-360d-4618-bcf1-a15397ac5679](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/e7a1913c-d85a-47f0-9553-4a3f050d09c3)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![304756993-8407e750-360d-4618-bcf1-a15397ac5679](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/aca8c451-1f6e-41de-a553-5a92fb9f9204)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![305806311-11d2f11a-d9dd-4031-ae76-4a1e5d45cbab](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/113d0fee-04d5-40ad-a609-93d81dde00de)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![305806567-aea04219-9477-4c77-8869-7e5a236b52cd](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/5833194e-a0bc-4e53-a33b-3ff9a94dca1a)
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+![305806939-57a931c1-b4a9-474b-85f6-673a6677fa74](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/48bf60d7-46ad-4f14-9272-c15430adff7b)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![305807162-0b0e3818-ad4a-4457-8d48-bb0b9781d525](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/8c100544-66a9-487d-a0e6-5bef6f48f4d3)
 
 
 cat > file23
@@ -246,83 +256,101 @@ cat > file23
 1001 | Ram | 10000 | HR
 ^d
 ```
+![305807842-15f71b7d-9de1-486b-95f9-d0a47edd4cb2](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/ec0bcfdc-8437-45ba-b72a-e9f7436079b6)
 
 
 sed -n -e '3p' file23
 ## OUTPUT
+![305808121-935e41ac-cef7-4004-86bd-8468ce609fd9](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/f6dcdd26-1058-4677-84aa-df932d8c4a13)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![305808421-fde3c44c-c67b-4577-add4-04f19672d4c7](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/00514ad6-a5de-4c13-8607-ab15558a6432)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![305808879-515073f9-5a64-4e95-b71e-d79c8587acf6](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/b20c15a0-e230-497d-a0c8-aa105cd34c1a)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![305809256-438d0526-e72c-48a8-b2c2-02c72d41d513](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/96019097-f7bd-4625-acbb-eb33134133db)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![305809737-6aa011d2-186a-414f-b514-00debb8a44e1](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/c0fe0276-13a1-4ad7-9288-9697b8b26924)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![305809737-6aa011d2-186a-414f-b514-00debb8a44e1](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/ebe97395-e1cf-45a9-b7ec-83c1a20c28c7)
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+![305810312-b7e023e8-c5e4-4af6-bbcd-6438f58cad6b](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/fcdaf555-b847-4da1-b720-6e1629b3bca1)
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+![305810312-b7e023e8-c5e4-4af6-bbcd-6438f58cad6b](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/5a9a74ab-5270-435e-b4f8-7490ab970dcd)
 
 
 
 seq 10 
 ## OUTPUT
+![305810629-1430b248-5100-409c-b0f7-a6ad12c5f959](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/81ca8356-ed64-46c5-870a-f40a48faa8dc)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+![305810904-1f5d6e2f-1a7b-4eea-8552-acff8c81523b](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/053a9147-6aab-425b-9e32-cd9f38ba3994)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![305811484-eb525a7e-43b5-4916-af88-3bc8c6b4cdca](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/d1cb1712-b654-4649-b0d7-9f9a09ac7e35)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![305811718-84f84424-6a15-4d3b-a285-941d3fe16861](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/0944c95c-3af8-431f-943b-fdecf92a546a)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![305812046-7bea0f04-279e-4903-a337-d4902ebd4032](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/8050f6b4-519d-4d1c-a5c8-cc846dcb578c)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![305812297-eafaeb58-e136-4d78-8e1f-bd4de3e2ff9d](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/cc05daa4-6b46-4007-ac1b-5fe60ad93550)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![305812369-18284ae2-1458-43d2-adf9-c938b0e768e3](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/db48847f-05bd-41d5-8fad-7513d4113ab3)
+
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+
 
 
 #Sorting File content
@@ -336,6 +364,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![305813529-e5d6736e-cf4e-41a3-b67d-1782fb4559b3](https://github.com/marcoyoi/OS-Linux-commands-Shell-script/assets/128804366/9dcd02e6-c1bc-4477-88f5-447b0b74bc8b)
 
 
 cat > file22
